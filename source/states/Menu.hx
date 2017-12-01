@@ -20,7 +20,7 @@ class Menu extends FlxState
 	override public function create():Void 
 	{
 		super.create();
-		title = new FlxText(60, 25, FlxG.width, "Super Normal Boy");
+		title = new FlxText(60, 25, FlxG.width, "1Hp Boy");
 		title.setFormat(null, 20, FlxColor.RED);
 		text = new FlxText(70, 100, FlxG.width, "Press 'Space' to play");
 		credits = new FlxText(20, 150, FlxG.width, "Created by: Francisco Högner");

@@ -17,7 +17,7 @@ class DeathState extends FlxState
 	
 	override public function create():Void 
 	{
-		title = new FlxText(100, 20, FlxG.width, "Muriste");
+		title = new FlxText(100, 20, FlxG.width, "You Died");
 		title.setFormat(null, 12, FlxColor.RED);
 		menuText = new FlxText(70, 50, FlxG.width, "Press 'Space' to got to the menu");
 		restartText = new FlxText(80, 70, FlxG.width, "Press 'R' to restart");

@@ -19,7 +19,7 @@ class VictoryMenu extends FlxState
 	{
 		title = new FlxText(100, 20, FlxG.width);
 		title.setFormat(null, 12, FlxColor.RED);
-		ganaste = new FlxText(FlxG.width / 2, 100, FlxG.width,"Ganaste!", 30);
+		ganaste = new FlxText(FlxG.width / 2, 100, FlxG.width,"You Win!", 30);
 		text = new FlxText(70, 50, FlxG.width, "Press 'Space' to go to the menu");
 		
 		add(ganaste);
